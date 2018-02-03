@@ -1,0 +1,497 @@
+/*              Path: style/root.css                                                         */
+
+
+
+body {
+font-family:Arial, Helvetica, sans-serif;
+ background: url(a.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;width:100%;
+
+}
+
+/* Container */
+.container {
+width:100%;
+/* background:#46324D url(../img/background.jpg) no-repeat top; */
+margin:0 auto;
+overflow:hidden;
+}
+
+
+/* Container */
+.container1 {
+width:100%;
+background:#46324D url(../a.jpg) no-repeat top;
+margin:0 auto;
+overflow:hidden;
+}
+
+
+/* Header */
+.header {
+background:url(../img/header-bg.png) repeat-x;
+height:57px;
+width:100%;
+padding:0 13px;
+}
+
+.header .logo {
+width:100%;
+float:center;
+padding-left:21px;
+padding-top:8px;
+text-align:center;
+}
+
+.back-button {
+width:60px;
+padding-top:11px;
+float:left;
+}
+
+.back-button a {
+display:block;
+height:24px;
+background:url(../img/back-button.png) no-repeat 0 0;
+font-size:13px;
+font-weight:700;
+color:#ccc;
+text-align:center;
+text-shadow:1px 1px 0 #242424;
+padding:10px 0 0 7px;
+}
+
+.back-button a:hover {
+background:url(../img/back-button.png) no-repeat 0 -35px;
+}
+
+.back-button a:active {
+background:url(../img/back-button.png) no-repeat 0 -70px;
+}
+
+
+/* Content */
+.content {
+padding:22px 15px;
+}
+
+
+/* Home Page */
+.homepage {
+text-align:center;
+text-shadow:1px 1px 0 #242424;
+padding:20px 0;
+height:275px;
+}
+
+.homepage h1 {
+font-size:65px;
+letter-spacing:-2pt;
+/*color:#fff;*/
+padding-bottom:2px;
+}
+
+.homepage h3 {
+font-size:22px;
+color:#fff;
+font-weight:400;
+}
+
+.homepage p {
+background:url(../img/lightline.png) repeat-x top;
+font-size:13px;
+color:#FFF;
+font-weight:700;
+margin:13px 0;
+padding:16px 0 30px;
+}
+
+.homepage p span {
+color:#FF9;
+}
+
+
+/* Simple Button Big */
+.simplebutton-big {
+color:#47390D;
+font-size:28px;
+text-shadow:none;
+font-weight:700;
+background:#FFD249 url(../img/simplebutton-big-normal.png) repeat-x bottom;
+border:1px solid #47390D;
+border-radius:4px;
+-moz-border-radius:4px;
+-webkit-border-radius:4px;
+padding:18px;
+height:100%;
+}
+
+.simplebutton-big:hover {
+background:#FFD249 url(../img/simplebutton-big-hover.png) repeat-x bottom;
+}
+
+.simplebutton-big:active {
+color:#735C17;
+background:#FFD144 url(../img/simplebutton-big-active.png) repeat-x top;
+}
+
+.button-shadow {
+box-shadow:0 1px 0 0 #806A88;
+-moz-box-shadow:0 1px 0 0 #806A88;
+-webkit-box-shadow:0 1px 0 0 #806A88;
+}
+
+
+/* Static Page - About or Others */
+.page {
+background:#E2E2E2;
+padding:11px;
+}
+
+.page h1 {
+font:bold 19px Arial, Helvetica, sans-serif;
+padding-bottom:8px;
+padding-top:3px;
+background:url(../img/page-title-bg.png) repeat-x bottom;
+}
+
+.page p {
+font-size:13px;
+color:#333;
+line-height:18px;
+padding:11px 0;
+}
+
+/* Simple Button Link */
+.simplebutton {
+font-size:90%;
+background:#FFD249 url(../img/simplebutton-normal.png) repeat-x bottom;
+border:1px solid #775F15;
+font:bold 12px Arial, Helvetica, sans-serif;
+border-radius:3px;
+-moz-border-radius:3px;
+-webkit-border-radius:3px;
+line-height:36px;
+padding:9px 13px;
+
+}
+
+.simplebutton:hover {
+}
+
+.simplebutton:active {
+border:1px solid #57450F;
+}
+
+/* Simple Button for Forms */
+.simplebutton-forforms {
+width:87px;
+height:32px;
+border-radius:3px;
+font:bold 12px Arial, Helvetica, sans-serif;
+-moz-border-radius:3px;
+-webkit-border-radius:3px;
+border:1px solid #775F15;
+}
+
+/* Contact */
+#contact {
+padding:10px 1px 23px;
+}
+
+#contact .titlelabel {
+color:#666;
+display:block;
+font-size:12px;
+padding:6px 0;
+}
+
+/* Simple Input */
+.simpleinput {
+font:13px Arial, Helvetica, sans-serif;
+color:#333;
+border:1px solid #DADADA;
+border-left:1px solid #B0B0B0;
+border-top:1px solid #B0B0B0;
+border-radius:3px;
+-moz-border-radius:3px;
+-webkit-border-radius:3px;
+width:239px;
+margin-bottom:10px;
+background:#FDFDFD url(../img/simpleinput-bg.png) repeat-x top;
+padding:10px 12px;
+}
+
+/* Social */
+.social {
+border-top:1px solid #ccc;
+padding:12px 0 3px;
+}
+
+.social img {
+margin-right:4px;
+}
+
+
+/* Title Simple */
+.titlesimple {
+text-align:center;
+text-shadow:1px 1px 0 #242424;
+}
+
+.titlesimple h1 {
+font-size:37px;
+letter-spacing:-0.7pt;
+color:#fff;
+padding-bottom:6px;
+}
+
+.titlesimple h4 {
+font-size:14px;
+font-weight:400;
+color:#fff;
+padding-bottom:2px;
+}
+
+
+/* Portfolio */
+#portfolio {
+padding:11px 0;
+}
+
+#portfolio .images {
+text-align:center;
+padding:20px 0 10px;
+}
+
+#portfolio .images img {
+float:left;
+background:#ccc;
+border-radius:1px;
+-moz-border-radius:1px;
+-webkit-border-radius:1px;
+opacity:0.72px;
+margin:1px;
+}
+
+#portfolio .images img:hover {
+opacity:1px;
+}
+
+/* Blog */
+#blog .cont {
+padding:15px 0 0;
+}
+/*******************************
+*******************************
+*****************************************
+***************************************************
+****************************************************************
+*************************************************/
+/* Blog Post */
+#blog .post {
+
+padding:8px;
+}
+
+#blog .post p {
+font-size:18px;
+line-height:35px;
+padding:3px 0 10px;
+}
+
+#blog .post .image {
+float:right;
+margin-left:15px;
+margin-bottom:10px;
+}
+
+#blog .post .foot {
+font-size:11px;
+color:#999;
+border-top:1px solid #E7E5E8;
+padding:8px 0 0;
+}
+
+#blog .post .foot .date {
+width:135px;
+float:left;
+text-align:left;
+}
+
+#blog .post .foot .yecomments {
+width:100%;
+float:right;
+text-align:right;
+}
+
+
+.blogtitle {
+font-size:17px;
+line-height:40px;
+
+}
+
+.blogtitle-div {
+height:100%;
+}
+
+.blogtitle a {
+color:#3D2C3F;
+}
+
+.blogtitle a:hover {
+color:#000;
+}
+
+/* Page buttons */
+.pagebuttons {
+padding:10px 0 0;
+}
+
+.previousbutton {
+display:block;
+width:76px;
+height:24px;
+background:url(../img/pagebuttons.png) no-repeat 0 0;
+font:bold 13px Arial, Helvetica, sans-serif;
+color:#000;
+text-align:center;
+float:left;
+padding-left:2px;
+padding-top:8px;
+}
+
+.previousbutton:hover {
+color:#fff;
+background:url(../img/pagebuttons.png) no-repeat 0 -33px;
+}
+
+.previousbutton:active {
+color:#fff;
+background:url(../img/pagebuttons.png) no-repeat 0 -66px;
+}
+
+.nextbutton {
+display:block;
+width:76px;
+height:24px;
+background:url(../img/pagebuttons.png) no-repeat -79px 0;
+font:bold 13px Arial, Helvetica, sans-serif;
+color:#000;
+text-align:center;
+float:right;
+padding-left:2px;
+padding-top:8px;
+}
+
+.nextbutton:hover {
+color:#fff;
+background:url(../img/pagebuttons.png) no-repeat -79px -33px;
+}
+
+.nextbutton:active {
+color:#fff;
+background:url(../img/pagebuttons.png) no-repeat -79px -66px;
+}
+
+
+
+
+
+/* Footer */
+.footer {
+height:86px;
+text-align:center;
+background:url(../img/footer.png) repeat 0 -87px;
+}
+
+.footer span {
+display:block;
+}
+
+.footer a {
+display:block;
+height:68px;
+color:#ccc;
+text-shadow:1px 1px 0 #191919;
+padding-top:18px;
+font:bold 14px Arial, Helvetica, sans-serif;
+}
+
+.footer a:hover {
+color:#fff;
+background:url(../img/footer.png) no-repeat 0 -87px;
+}
+
+.footer a:active {
+background:url(../img/footer.png) no-repeat 0 -174px;
+}
+
+.footer img {
+margin-bottom:9px;
+}
+
+.footer .about {
+width:20%;
+float:left;
+margin-right:1px;
+}
+
+.footer .blog {
+width:20%;
+float:left;
+margin-right:1px;
+}
+
+.footer .gallery {
+width:20%;
+float:left;
+}
+
+.footer .contact {
+width:20%;
+float:left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cp{ font-family:Arial, Helvetica, sans-serif;
+	color: #444444;
+	font-size: 30px;
+	padding:5px;
+
+	}
